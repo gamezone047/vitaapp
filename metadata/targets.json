@@ -2,12 +2,12 @@
  "signatures": [
   {
    "keyid": "6ac523a3128cee99bfc6e952500cbe9f54f9654735b606200cb6b80082de9082",
-   "sig": "e72b9c6a1cef83f2bdccfd19678d06ca9bf321042ad3093058464a88452c82688aced39329a17b27143210b47eb98b9d97e33b4807d46b80b9aa249a50a49902"
+   "sig": "6992a04202f7df6ceaa7c171180f3b7626fe31e2b244353f591adde7a3e71ff38f938c48e17d67abd94465faed675754eeb36a22e77c3deb35495eae083e6303"
   }
  ],
  "signed": {
   "_type": "targets",
-  "expires": "2026-02-16T08:47:16Z",
+  "expires": "2026-02-16T22:03:43Z",
   "spec_version": "1.0.31",
   "targets": {
    "VitaApp-1.2.0.tar.gz": {
@@ -513,8 +513,20 @@
      "sha256": "8a4deb0cb9c0f5b637f4930ebbdbf340042b04cd6c2a3af08abde75215a7e930"
     },
     "length": 30916172
+   },
+   "VitaApp-1.6.1.tar.gz": {
+    "custom": {
+     "tufup": {
+      "required": false
+     },
+     "user": null
+    },
+    "hashes": {
+     "sha256": "9c228a7108e073eaee01e62c68e7c9b180eccac69f015ede110778baf8c6a3aa"
+    },
+    "length": 30916303
    }
   },
-  "version": 36
+  "version": 37
  }
 }
